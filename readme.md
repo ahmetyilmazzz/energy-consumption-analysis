@@ -31,16 +31,10 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
     git clone [https://github.com/KULLANICI-ADINIZ/PROJE-ADINIZ.git](https://github.com/KULLANICI-ADINIZ/PROJE-ADINIZ.git)
     ```
 
-2.  **Gerekli kütüphaneleri yükleyin:**
-    *Proje ana dizininde bulunan `requirements.txt` dosyasını kullanarak kurulum yapabilirsiniz.*
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Veri Yolu'nu Güncelleyin:**
+2.  **Veri Yolu'nu Güncelleyin:**
     `main.py` betiği içindeki `base_path` değişkenini, CSV dosyalarının kendi bilgisayarınızda bulunduğu klasör yolu ile güncelleyin.
 
-4.  **Betiği Çalıştırın:**
+3.  **Betiği Çalıştırın:**
     ```bash
     python main.py
     ```
